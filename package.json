@@ -1,11 +1,11 @@
 {
-  "name": "nodebb-plugin-dbsearch",
-  "version": "6.2.0",
-  "description": "A Plugin that lets users search posts and topics",
+  "name": "nodebb-plugin-dbsearch-rsjieba",
+  "version": "0.1.0",
+  "description": "A plugin that uses the database for search, use @node-rs/jieba to support Chinese with limitations.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/barisusakli/nodebb-plugin-dbsearch"
+    "url": "https://github.com/jszsj/nodebb-plugin-dbsearch-rsjieba"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,9 +15,13 @@
     "plugin",
     "search"
   ],
-  "author": "Baris Usakli <baris@designcreateplay.com>",
+  "author": {
+    "name": "@jszsj",
+    "url": "https://github.com/jszsj"
+  },
   "license": "BSD-2-Clause",
   "dependencies": {
+    "@node-rs/jieba": "^1.7.2",
     "lodash": "4.17.21",
     "redisearch": "^1.0.3"
   },

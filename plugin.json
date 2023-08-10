@@ -1,9 +1,8 @@
 {
-    "id": "nodebb-plugin-dbsearch",
-    "name": "DB Search",
-    "description": "A Plugin that lets users search posts and topics",
-    "url": "https://github.com/barisusakli/nodebb-plugin-dbsearch",
-    "library": "./index.js",
+    "id": "nodebb-plugin-dbsearch-rsjieba",
+    "name": "DB Search with limited Chinese compatibility",
+    "description": "A Plugin that lets users search posts and topics, use @node-rs/jieba to support Chinese.",
+    "url": "https://github.com/jszsj/nodebb-plugin-dbsearch-rsjieba",
     "upgrades": [
         "upgrades/dbsearch_change_mongodb_schema.js"
     ],
