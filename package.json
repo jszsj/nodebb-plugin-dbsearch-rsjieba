@@ -1,7 +1,7 @@
 {
   "name": "nodebb-plugin-dbsearch-rsjieba",
-  "version": "0.1.0",
-  "description": "A plugin that uses the database for search, use @node-rs/jieba to support Chinese with limitations.",
+  "version": "0.2.0",
+  "description": "A plugin that uses the database for search, use @node-rs/jieba to support Chinese.",
   "main": "index.js",
   "repository": {
     "type": "git",
